@@ -1,0 +1,32 @@
+//get all the todos
+GET http://localhost:5000/api/
+Content-Type: application/json
+
+
+#### create a todo
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "name":"all my assignment",
+    "isComplete":true
+}
+
+
+#### update todos
+
+PATCH  http://localhost:5000/api/6277afd51ec8aa32161521ea
+Content-Type: application/json
+
+{
+    "name":"finished all my assignment",
+    "isComplete":true
+}
+
+
+#### delete a todo
+
+DELETE  http://localhost:5000/api/627785f54c72e528ab4f4f69
+Content-Type: application/json
+
