@@ -11,3 +11,4 @@ cd into todo the frontend part of the application
 cd todo
 run : npm install
 run : npm start
+# todo-app
